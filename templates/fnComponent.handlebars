@@ -8,9 +8,7 @@ import React from 'react';
 {{/if}}
 {{#if typescript}}
 
-{{#if export}}export {{/if}}type {{ name }}Props = {
-  //
-};
+{{#if export}}export {{/if}}type {{ name }}Props = {};
 {{/if}}
 
 {{#if export }}export {{/if}}const {{ name }}{{#if typescript}}: React.FC<
