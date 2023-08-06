@@ -1,6 +1,6 @@
 {
   "name": "reactizzen",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Creates single react component folder structure with multiple flags, upgraded version of not maintained anymore create-react-folder-component library.",
   "main": "./lib/index",
   "readme": "README.md",
