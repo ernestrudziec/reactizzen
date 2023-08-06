@@ -1,25 +1,25 @@
 # Create React Component folder
 
-[![NPM version](https://img.shields.io/npm/v/create-react-component-folder.svg?style=flat)](https://npmjs.com/package/create-react-component-folder)
-[![NPM downloads](https://img.shields.io/npm/dm/create-react-component-folder.svg?style=flat)](https://npmjs.com/package/create-react-component-folder)
+[![NPM version](https://img.shields.io/npm/v/reactizzen.svg?style=flat)](https://npmjs.com/package/reactizzen)
+[![NPM downloads](https://img.shields.io/npm/dm/reactizzen.svg?style=flat)](https://npmjs.com/package/reactizzen)
 
 ## About
 
-Create React Component folder works on macOS, Windows, and Linux.<br>
+Reactizzen works on macOS, Windows, and Linux.<br>
 It creates **React** or **React Native** component folder structure with one command.<br>
 There is also support for Typescript, React Native, Less and Sass.
 
 ## Quick Overview
 
 ```sh
-$ npm install --save-dev create-react-component-folder
-$ npx crcf myComponent
+$ npm install --save-dev reactizzen
+$ npx reactizzen myComponent
 ```
 
-_([npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) comes with npm 5.2+ and higher, see [instructions for older npm versions](https://github.com/snaerth/create-react-component-folder/blob/master/docs/npx_instructions.md))_
+_([npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) comes with npm 5.2+ and higher, see [instructions for older npm versions](https://github.com/ernestrudziec/reactizzen/blob/master/docs/npx_instructions.md))_
 
 <p align='center'>
-<img src='https://github.com/snaerth/create-react-component-folder/blob/master/docs/crcf_video.svg' width='600' alt='npx crcf myComponent'>
+<img src='https://github.com/ernestrudziec/reactizzen/blob/master/docs/crcf_video.svg' width='600' alt='npx crcf myComponent'>
 </p>
 
 ## Tutorial
@@ -29,32 +29,32 @@ _([npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7
 ## Installation
 
 ```sh
-$ npm install --save-dev create-react-component-folder
+$ npm install --save-dev reactizzen
 ```
 
 ## Creating a single component
 
 ```sh
-$ npx crcf myComponent
-$ npx crcf components/myComponent
+$ npx reactizzen myComponent
+$ npx reactizzen components/myComponent
 ```
 
 ## Output single
 
 <p align='center'>
-<img src='https://github.com/snaerth/create-react-component-folder/blob/master/docs/single2.png?raw=true' width='600' />
+<img src='https://github.com/ernestrudziec/reactizzen/blob/master/docs/single2.png?raw=true' width='600' />
 </p>
 
 ## Creating multiple components
 
 ```sh
-$ npx crcf components/header footer button navigation
+$ npx reactizzen components/header footer button navigation
 ```
 
 ## Output multiple
 
 <p align='center'>
-<img src='https://github.com/snaerth/create-react-component-folder/blob/master/docs/multiple2.png?raw=true'  width='600' />
+<img src='https://github.com/ernestrudziec/reactizzen/blob/master/docs/multiple2.png?raw=true'  width='600' />
 </p>
 
 ## Component folder structure
@@ -82,7 +82,7 @@ myComponent
 
 There is support for setting default config options, so you only have to set you desired config once. This makes creating your components even easier. All you have to do is follow one of these three options.
 
-In your package.json, add a **"crcf"** property key with array of default config options
+In your package.json, add a **"reactizzen"** property key with array of default config options
 
 "stories" is to enable story book component
 
@@ -135,6 +135,7 @@ So now all you have to do is type **npx reactizzen componentName** and you will 
   "nosemi",
   "singlequote",
   "cssmodules",
+  "cssstyles",
   "namedexports",
   "graphql",
   "stylesext",
@@ -153,7 +154,7 @@ $ npx reactizzen --createindex components/myComponent/
 ## Output in index.js file for multiple component imports
 
 <p align='center'>
-<img src='https://github.com/snaerth/create-react-component-folder/blob/master/docs/index2.png?raw=true' width='600'/>
+<img src='https://github.com/ernestrudziec/reactizzen/blob/master/docs/index2.png?raw=true' width='600'/>
 </p>
 
 ## Publishing templates
@@ -166,7 +167,7 @@ Publishing the templates allows you to have finer control over the generated com
 $ npx reactizzen publish-templates
 ```
 
-The templates will be copied to a directory `.crcf/templates` relative to the directory you ran the script from.
+The templates will be copied to a directory `.reactizzen/templates` relative to the directory you ran the script from.
 
 ### Modifying templates
 
@@ -201,6 +202,7 @@ $ npx reactizzen create --help
     --nocss             No css file
     --notest            No test file
     --cssmodules        Creates css/less/scss file with .module extensions. Example
+    --cssstyles         Creates css/less/scss file with .styles extensions. Example
     --reactnative       Creates React Native components
     --createindex       Creates index.js file for multple component imports
     --graphql           Creates a index.graphql file
@@ -220,13 +222,13 @@ $ npx reactizzen create --help
 
 ## Author
 
-Author of original library - [react-create-component-folder](https://www.npmjs.com/package/create-react-component-folder)
+Forked and modified, and published as reactizzen:
+- [Ernest Rudziec](https://github.com/ernestrudziec)
 
+
+Author of original library - [react-create-component-folder](https://www.npmjs.com/package/create-react-component-folder)
 - [Snær Seljan Þóroddsson](https://github.com/snaerth)
 
-Forked and modified, and published as reactizzen:
-
-- [Ernest Rudziec](https://github.com/ernestrudziec)
 
 ## License
 
