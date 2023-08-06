@@ -1,14 +1,12 @@
 If you use npm 5.1 or earlier, you can't use `npx`.
-Instead, install `create-react-component-folder` globally:
+Instead, install `reactizzen` globally:
 
 ```sh
-npm install -g create-react-component-folder
+npm install -g reactizzen
 ```
 
 Now you can run:
 
 ```
-crcf myComponent
-or
-create-react-component-folder myComponent
+reactizzen myComponent
 ```

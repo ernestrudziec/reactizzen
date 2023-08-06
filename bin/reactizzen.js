@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+require('node-alias')('reactizzen', __dirname);
+
 
 const program = require('commander');
 const packageJson = require('../package.json');

@@ -89,7 +89,7 @@ In your package.json, add a **"crcf"** property key with array of default config
 "spec" to have the file extensions
 
 ```sh
-"crcf": [
+"reactizzen": [
   "scss",
   "proptypes",
   "stories",
@@ -97,7 +97,7 @@ In your package.json, add a **"crcf"** property key with array of default config
 ]
 ```
 
-Create a rc file named **.crcfrc** in the root of your project and insert a array of default config options in that file
+Create a rc file named **.reactizzenrc** in the root of your project and insert a array of default config options in that file
 
 ```sh
 [
@@ -107,7 +107,7 @@ Create a rc file named **.crcfrc** in the root of your project and insert a arra
 ]
 ```
 
-Create a config file named **.crcf.config.js** in the root of your project and insert a array of default config options
+Create a config file named **.reactizzen.config.js** in the root of your project and insert a array of default config options
 
 ```sh
 [
@@ -117,7 +117,7 @@ Create a config file named **.crcf.config.js** in the root of your project and i
 ]
 ```
 
-So now all you have to do is type **npx crcf componentName** and you will get all your default options when you create a component or multiple components. Here below you can see all the options.
+So now all you have to do is type **npx reactizzen componentName** and you will get all your default options when you create a component or multiple components. Here below you can see all the options.
 
 ```sh
 [
@@ -147,7 +147,7 @@ So now all you have to do is type **npx crcf componentName** and you will get al
 ## Creating index.js file for multiple component imports
 
 ```sh
-$ npx crcf --createindex components/myComponent/
+$ npx reactizzen --createindex components/myComponent/
 ```
 
 ## Output in index.js file for multiple component imports
@@ -163,7 +163,7 @@ If the project you are working on always needs components structured differently
 Publishing the templates allows you to have finer control over the generated components and content. Published templates use <handlebars>[https://handlebarsjs.com/] to generate the different components.
 
 ```sh
-$ npx crcf publish-templates
+$ npx reactizzen publish-templates
 ```
 
 The templates will be copied to a directory `.crcf/templates` relative to the directory you ran the script from.
@@ -190,7 +190,7 @@ Templates are always passed a number of variables to help you generate templates
 ## Options
 
 ```sh
-$ npx crcf create --help
+$ npx reactizzen create --help
 
   Usage: index [options]
 
@@ -220,7 +220,13 @@ $ npx crcf create --help
 
 ## Author
 
+Author of original library - [react-create-component-folder](https://www.npmjs.com/package/create-react-component-folder)
+
 - [Snær Seljan Þóroddsson](https://github.com/snaerth)
+
+Forked and modified, and published as reactizzen:
+
+- [Ernest Rudziec](https://github.com/ernestrudziec)
 
 ## License
 

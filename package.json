@@ -1,7 +1,7 @@
 {
-  "name": "create-react-component-folder",
-  "version": "0.3.8",
-  "description": "Creates single react component folder structure",
+  "name": "reactizzen",
+  "version": "0.0.1",
+  "description": "Creates single react component folder structure with multiple flags, upgraded version of not maintained anymore create-react-folder-component library.",
   "main": "./lib/index",
   "readme": "README.md",
   "engines": {
@@ -23,13 +23,14 @@
     "crcf",
     "create-react-app",
     "create-react-component",
-    "create-react-component-folder"
+    "create-react-component-folder",
+    "reactizzen"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/snaerth/create-react-component-folder"
+    "url": "git+https://github.com/ernestrudziec/reactizzen"
   },
-  "author": "Snær Seljan Þóroddsson",
+  "author": "Ernest Rudziec",
   "license": "MIT",
   "devDependencies": {
     "app-root-dir": "^1.0.2",
@@ -41,8 +42,7 @@
     "prettier-eslint": "^9.0.2"
   },
   "bin": {
-    "create-react-component-folder": "./bin/create-react-component-folder.js",
-    "crcf": "./bin/crcf.js"
+    "reactizzen": "./bin/reactizzen.js"
   },
   "dependencies": {
     "chalk": "^3.0.0",
