@@ -9,7 +9,8 @@
   },
   "scripts": {
     "dev": "node ./lib/index",
-    "lint": "eslint lib bin --fix"
+    "lint": "eslint lib bin --fix",
+    "pub": "npm version patch --force && npm publish"
   },
   "keywords": [
     "cli",
