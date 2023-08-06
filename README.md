@@ -1,11 +1,11 @@
-# Create React Component folder
+# reactizzen
 
 [![NPM version](https://img.shields.io/npm/v/reactizzen.svg?style=flat)](https://npmjs.com/package/reactizzen)
 [![NPM downloads](https://img.shields.io/npm/dm/reactizzen.svg?style=flat)](https://npmjs.com/package/reactizzen)
 
 ## About
 
-Reactizzen works on macOS, Windows, and Linux.<br>
+**reactizzen** works on macOS, Windows, and Linux.<br>
 It creates **React** or **React Native** component folder structure with one command.<br>
 There is also support for Typescript, React Native, Less and Sass.
 
